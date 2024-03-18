@@ -1,0 +1,142 @@
+body{
+  min-height: 100vh;
+  background: #f3f3a4;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nav{
+  display: flex;
+      justify-content: right;
+      align-items: center;
+      font-size: 18px;
+      color: #bbb9bd;
+      flex-grow: 1;
+    }
+    .nav-item{
+      box-sizing: border-box;
+      padding: 10px;
+      cursor: pointer;
+      font-family: 'ProximaSoftRegularIt';
+      margin-left: 50px;
+    }
+    .head{
+      text-align: center;
+      font-size: calc(1.5rem+5vw);
+      letter-spacing: 2rem;
+      color: #3f033b;
+      text-shadow: 2px 2px 1px #000;
+    }
+    .line{
+      display: flex;
+      margin: 25px auto;
+      width: 80vw;
+    }
+    .img1{
+        object-fit: contain;
+        flex: 1 1 50px;
+    }
+    .text1{
+        color: rgb(2, 0, 0);
+        font-size: calc(0.5em+1vw);
+        margin: 0px 10px 10px 20px;
+        flex: 1 1 50%;
+        font-family: 'ProximaSoftRegularIt';
+    }
+    .img2{
+      object-fit: scale-down;
+      flex: 50px;
+  
+    }
+    .img2 img, .img1 img{
+        width: 100%;
+        height: auto;
+    }
+    .text2{
+      color: rgb(3, 0, 0);
+      font-size: calc(0.5em+1vw);
+      margin: 0px 10px 10px 20px;
+      flex: 1 1 50%;
+      font-family: 'ProximaSoftRegularIt';
+    }
+    footer{
+      color: rgb(32, 21, 1);
+      display: flex;
+      width: 100%;
+      background-color: #f4bde3;
+    }
+    .footer-nav{
+      display: flex;
+      justify-content: space-around;
+      flex-grow: 1;
+      flex-wrap: wrap;
+    }
+    .footer-nav-item{
+      font-size: calc(0.2em+1vw);
+    }
+  
+    .icons{
+      display: flex;
+      width: 30vw;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    
+
+
+
+
+  
+  /* Стиль входных данных */
+  input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #282727;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #151213;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #000000;
+  }
+  
+  /* Стиль раздела контейнер/контакт */
+
+  
+  /* Создайте два столбца, которые плавают рядом друг с другом */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    }
+  
+  /* Очистить поплавки после столбцов */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  
