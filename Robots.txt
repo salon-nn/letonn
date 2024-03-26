@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap:https://salon-nn.github.io/letonn/index.html/sitemap.xml
